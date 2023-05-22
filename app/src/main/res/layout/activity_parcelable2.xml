@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parcelable.ParcelableActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/my_data_parcelable"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_name_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/name"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/text_email_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/email"
+        android:textSize="30sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_name_parce" />
+
+    <TextView
+        android:id="@+id/text_phone_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/phone_number"
+        android:textSize="30sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_email_parce" />
+
+    <TextView
+        android:id="@+id/text_address_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/address"
+        android:textSize="30sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_phone_parce" />
+
+    <TextView
+        android:id="@+id/text_age_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/age"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_address_parce" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
